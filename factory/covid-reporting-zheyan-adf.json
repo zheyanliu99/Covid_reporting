@@ -1,0 +1,9 @@
+{
+	"name": "covid-reporting-zheyan-adf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c749fe0c-3d07-45a9-9a1b-ae04f3fdae22",
+		"tenantId": "b0002a9b-0017-404d-97dc-3d3bab09be81"
+	}
+}

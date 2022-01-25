@@ -1,0 +1,26 @@
+{
+	"name": "pl_execute_population_piplines",
+	"properties": {
+		"activities": [
+			{
+				"name": "Ingest Population Data",
+				"type": "ExecutePipeline",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "pl_ingest_population_data",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			}
+		],
+		"folder": {
+			"name": "Execute"
+		},
+		"annotations": [],
+		"lastPublishTime": "2022-01-09T23:13:14Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
